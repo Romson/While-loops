@@ -44,6 +44,7 @@ while(x <= 333) {
     x+=1;
 }
 //Print all numbers divisible by 5 and 3 between 5 and 50
+
 console.log('Print all numbers divisible by 5 and 3 between 5 and 50');
 var x = 5;
 

@@ -35,15 +35,17 @@ while(x <= 40) {
 }
 //Print all odd numbers between 300 and 333
 console.log('Print all odd numbers between 300 and 333');
-var x = 301;
+var x = 300;
 
 while(x <= 333) {
-    console.log(x);
-    x += 2;
+    if(x % 2 !== 0) {
+        console.log(x);
+}
+    x+=1;
 }
 //Print all numbers divisible by 5 and 3 between 5 and 50
 console.log('Print all numbers divisible by 5 and 3 between 5 and 50');
-var x = 1;
+var x = 5;
 
 while(x <= 50) {
     if (x % 5 === 0 && x % 3 === 0) {

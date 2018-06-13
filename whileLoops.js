@@ -1,22 +1,6 @@
-//
-////First Loop (prints every % 4 === 0 nums )
-//var x = 1;
-//
-//while(x <= 20) {
-//    if (x % 4 === 0) {
-//        console.log(x);
-//    }
-//    x++;
-//}
-//
-////Infinite loop
-//var x = 100;
-//
-//while(x < 150) {
-//    console.log(x + 1);
-//    x--;
-//}
-//
+/* For loops version: https://github.com/Romson/For-loops/blob/master/forLoops.js */
+/* As you can see, While loops take more lines of code to achieve the same compared to For loops. */
+
 //Print all numbers between -10 and 19
 console.log('Print all numbers between -10 and 19');
 var x = -10;
